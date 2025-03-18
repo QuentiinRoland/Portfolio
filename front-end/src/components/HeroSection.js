@@ -17,7 +17,7 @@ const ServiceCard = ({ title, icon, color }) => {
 
 const HeroSection = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center px-4 py-20 bg-black text-white overflow-hidden">
+    <div className="relative flex items-center justify-center px-4 py-20 bg-black text-white overflow-hidden">
       <div className="absolute w-[40vw] h-[40vw] rounded-full bg-gradient-to-t from-violet-custom to-purple-custom opacity-30 blur-[80px] -left-[10%] top-[10%]"></div>
       <div className="absolute w-[35vw] h-[35vw] rounded-full bg-orange-custom opacity-30 blur-[80px] -right-[5%] top-[50%]"></div>
       <div className='flex flex-col md:flex-row justify-center items-center w-full z-10 max-w-5xl'>
