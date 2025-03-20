@@ -6,6 +6,8 @@ import { SkillsSection } from './components/SkillsSection';
 import { ProjectSection } from './components/ProjectSection.js/ProjectSection';
 import { ExperienceTabs } from './components/ExperienceTabs/ExperienceTabs';
 import AboutSection from './AboutSection';
+import Spacer from './components/Spacer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,9 +15,13 @@ function App() {
       <NavBar />
       <HeroSection />
       <SkillsSection />
+      <Spacer size='md' />
       <ProjectSection />
+      <Spacer size='md' />
       <ExperienceTabs />
+      <Spacer size='md' />
       <AboutSection />
+      <Footer />
     </div>
   );
 }

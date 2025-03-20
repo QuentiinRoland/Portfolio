@@ -34,7 +34,7 @@ export const ProjectSection = () => {
 
   return (
     <div className=" bg-white">
-      <main className="max-w-5xl mx-auto px-2 py-16">
+      <main className="max-w-5xl mx-auto px-2 py-20">
         <header className="mb-16 flex items-center justify-between">
           <h1 className="text-4xl font-serif font-bold text-gray-900 md:text-5xl">
             Our Recent <br />

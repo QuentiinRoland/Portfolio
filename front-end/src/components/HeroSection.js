@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ title, icon, color }) => {
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden mb-4">
+    <div className="bg-white rounded-lg shadow-sm mb-4">
       <div className={`p-6 ${color} relative`}>
         <div className="w-10 h-10 rounded-full flex items-center justify-center bg-white bg-opacity-20">
           {icon}
@@ -17,7 +17,7 @@ const ServiceCard = ({ title, icon, color }) => {
 
 const HeroSection = () => {
   return (
-    <div className="relative flex items-center justify-center px-4 py-20 bg-black text-white overflow-hidden">
+    <div className="relative flex items-center justify-center px-4 py-36 bg-black text-white ">
       <div className="absolute w-[40vw] h-[40vw] rounded-full bg-gradient-to-t from-violet-custom to-purple-custom opacity-30 blur-[80px] -left-[10%] top-[10%]"></div>
       <div className="absolute w-[35vw] h-[35vw] rounded-full bg-orange-custom opacity-30 blur-[80px] -right-[5%] top-[50%]"></div>
       <div className='flex flex-col md:flex-row justify-center items-center w-full z-10 max-w-5xl'>
