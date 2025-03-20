@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import { SkillsSection } from './components/SkillsSection';
 import { ProjectSection } from './components/ProjectSection.js/ProjectSection';
 import { ExperienceTabs } from './components/ExperienceTabs/ExperienceTabs';
+import AboutSection from './AboutSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SkillsSection />
       <ProjectSection />
       <ExperienceTabs />
+      <AboutSection />
     </div>
   );
 }
